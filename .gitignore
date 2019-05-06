@@ -1,1 +1,4 @@
 goorm.manifest
+env/
+*.pyc
+__pycache__
