@@ -4,31 +4,38 @@
     <title>Color Picker</title>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
-    <link href="styles/index.css" rel="stylesheet">
   </head>
   <body>
-    <h1>
-      <span>C</span>
-      <span>o</span>
-      <span>l</span>
-      <span>o</span>
-      <span>r&nbsp;</span>
-      <span>p</span>
-      <span>i</span>
-      <span>c</span>
-      <span>k</span>
-      <span>e</span>
-      <span>r</span>
-    </h1>
+    <div class="header">
+      <h1>
+        <span>C</span>
+        <span>o</span>
+        <span>l</span>
+        <span>o</span>
+        <span>r&nbsp;</span>
+        <span>p</span>
+        <span>i</span>
+        <span>c</span>
+        <span>k</span>
+        <span>e</span>
+        <span>r</span>
+      </h1>
+    </div>
     <div class="box container-content">
       <div class="box container-slider">
         <div class="box slider-menu">
-          <p id="value-r">255</p>
-          <input type="range" min="0" max="255" value="255" class="slider" id="slider-r">
-          <p id="value-g">255</p>
-          <input type="range" min="0" max="255" value="255" class="slider" id="slider-g">
-          <p id="value-b">255</p>
-          <input type="range" min="0" max="255" value="255" class="slider" id="slider-b">
+          <div>
+            <p id="value-r">255</p>
+            <input type="range" min="0" max="255" value="255" class="slider" id="slider-r">
+          </div>
+          <div>
+            <p id="value-g">255</p>
+            <input type="range" min="0" max="255" value="255" class="slider" id="slider-g">
+          </div>
+          <div>
+            <p id="value-b">255</p>
+            <input type="range" min="0" max="255" value="255" class="slider" id="slider-b">
+          </div>
         </div>
       </div>
       <div class="box container-palette">
@@ -61,7 +68,9 @@
         </div>
       </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-    <script src="scripts/picker.js"></script>
+    <script
+	src="https://code.jquery.com/jquery-3.4.1.min.js"
+	integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+	crossorigin="anonymous"></script>
   </body>
 </html>
